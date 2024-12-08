@@ -118,9 +118,9 @@ const techStack = {
 };
 
 // Work experience section
-/*
+
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -149,7 +149,7 @@ const workExperiences = {
     }
   ]
 };
-/*
+
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -188,7 +188,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -220,7 +220,7 @@ const achievementSection = {
 };
 
 // Blogs Section
-/*
+
 const blogSection = {
   title: "Blogs",
   subtitle:
@@ -240,11 +240,11 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
-*/
+
 // Talks Sections
-/*
+
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
@@ -259,11 +259,11 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
-*/
+
 // Podcast Section
-/*
+
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
@@ -272,9 +272,9 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
-*/
+
 // Resume Section
 const resumeSection = {
   title: "Resume",
