@@ -60,10 +60,6 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
@@ -76,7 +72,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "linux",
-      fontAwesomeClassname: "fab fa-linux"
+      fontAwesomeClassname: "fab fa-docker"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -103,7 +99,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "0%" //Insert relative proficiency in percentage
+      progressPercentage: "50%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -206,6 +202,7 @@ const achievementSection = {
         "Earned in early 2019 in troop 767",
       image: require("./assets/images/eaglescout.png"),
       imageAlt: "Google Code-In Logo",
+      footerLink: []
     },
     {
       title: "Data Technician",
@@ -213,7 +210,8 @@ const achievementSection = {
         "Worked on the data tech team for SCCA events analyzing telemetry data",
       image: require("./assets/images/SCCA.webp"),
       imageAlt: "Google Assistant Action Logo",
-    },
+      footerLink: []
+    }
 
   ],
   display: true // Set false to hide this section, defaults to true
@@ -288,7 +286,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  //number: "+92-0000000000",
+  number: "+92-0000000000",
   email_address: "tlmcquis@mtu.edu"
 };
 
