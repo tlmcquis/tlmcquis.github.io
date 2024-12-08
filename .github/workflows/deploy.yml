@@ -32,7 +32,7 @@ jobs:
       - name: Install and Build 🔧 # Build the Project
         run: |
           npm install
-          npm audit fix --audit-level=high --package-lock-only=true --registry=https://registry.npmjs.org
+          npm audit fix --force
           npm run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
