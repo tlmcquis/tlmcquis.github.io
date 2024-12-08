@@ -20,9 +20,10 @@ jobs:
       - name: Install 🔧 # Install dependencies
         run: |
           npm install
+          npx prettier --write .
+          npm install
       
       - name: Check Format
         run: |
-          npx prettier --write .
           npm run check-format
 
