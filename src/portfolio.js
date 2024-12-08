@@ -92,7 +92,7 @@ const educationInfo = {
       logo: require("./assets/images/mtulogo.png"),
       subHeader: "Bachelors of Science in Data Science",
       duration: "September 2021 - April 2026"
-      ]
+      
     }
   ]
 };
