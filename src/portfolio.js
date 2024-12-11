@@ -277,7 +277,8 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
+  resumeLink:
+   "https://drive.google.com/file/d/19LwqMBJoSAQ8y_nI7jhL8XMLFsRd-aKA/view?usp=drive_link",
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
