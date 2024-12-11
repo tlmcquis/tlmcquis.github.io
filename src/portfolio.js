@@ -26,7 +26,7 @@ const greeting = {
     "A data science student at Michigan Tech with experience in Java, SQL, NodeJS, and Vue. My goal is to get my degree and to go into the automotive industry."
   ),
   resumeLink:
-   "https://drive.google.com/file/d/1stgHe9Ux1-EUpKiY5aQ5N8dkILQH4HnI/view?usp=drive_link", // Set to empty to hide the button
+   "https://drive.google.com/file/d/19LwqMBJoSAQ8y_nI7jhL8XMLFsRd-aKA/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
